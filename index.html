@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="conteiner centre border">
+    <header class="conteiner centre ">
         <nav class="centre">
           <a href="./index.html" class="logo"
             >Web<span class="logo-item"> Studio</span></a
@@ -64,24 +64,17 @@
     </header>
     <main>
       <!-- Герой -->
-      <section class="conteiner">
-        <div class="hero">
-          <!--  <img class="hero-img"
-          src="./images/mon.jpg"
-          alt="подложка"
-          style="width: 1200px; height: 600px;"
-        /> -->
-
+      <section class="hero ">
+       
           <h1 class="hero-title">
-            эффективные решения <br />
-            для вашего бизнеса
+            эффективные решения для вашего бизнеса
           </h1>
           <a href="#"> <button class="hero-button">Заказать услугу</button></a>
-        </div>
+       
       </section>
 
       <!-- Наши преимущества-->
-      <section class="conteiner section-padding">
+      <section class="conteiner section">
         <h2 class="list visually-hidden">Наши преимущества</h2>
 
         <ul class="advantages list">
@@ -143,47 +136,63 @@
         </ul>
       </section>
 
-      <section class="conteiner marg">
+ <!-- Чем мы занимаемся -->
+
+      <section class="conteiner  section">
         <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul class="flex projects list">
+          
+        <ul class="flex projects list ">
+
+          
           <li class="cust-marg">
-            <a href="#"
-              ><img
+            <div class="apps">
+            <a href="#">  
+              <img
                 src="./images/laptop.jpg"
                 alt="ноутбук"
-                style="width: 370px; height: 294px;"
-            /></a>
-            <h3 class="subtitle">Десктопные приложения</h3>
-          </li>
+                style="width: 370px; height: 294px;"/></a>
+                <h3 class="apps-position">Десктопные приложения</h3>
+              </div>
+               </li>
+          
+
           <li class="cust-marg">
-            <a href="#"
-              ><img
+            <div class="apps">
+            <a href="#">
+              <img
                 src="./images/phone.jpg"
                 alt="мобильный телефон"
                 style="width: 370px; height: 294px;"
             /></a>
-            <h3 class="subtitle">Мобильные приложения</h3>
+            <h3 class="apps-position">Мобильные приложения</h3>
+           </div>
           </li>
+        
           <li class="cust-marg">
             <a href="#">
+              <div class="apps">
               <img
                 src="./images/mon.jpg"
                 alt="монитор"
                 style="width: 370px; height: 294px;"
               />
+              
             </a>
-            <h3 class="subtitle">Дизайнерские решения</h3>
+            <h3 class="apps-position">Дизайнерские решения</h3>
+            </div>
           </li>
         </ul>
+       
       </section>
       <!-- Команда -->
-      <section class="conteiner section marg">
+      <section class="conteiner command section">
         <h2 class="section-title">Наша команда</h2>
         <ul class="list team">
           <li class="staff">
             <img
               src="./images/JohnSmith.jpg"
               alt="сотрудник Продукт Менеджер John Smith"
+              style="width: 270px; height: 260px;"
             />
             <h3 class="section-subtitle">John Smith</h3>
             <p>Product Designer</p>
@@ -191,7 +200,7 @@
             <ul class="network">
               <li>
                 <a href="#" class="size-icon" aria-label="Instagram">
-                  <svg width="20px" height="20px">
+                  <svg class="icon-animation" width="20px" height="20px">
                     <use href="./images/sprite.svg#icon-instagram"></use>
                   </svg>
                 </a>
@@ -343,47 +352,47 @@
       </section>
 
       <!--Постоянные клиенты -->
-      <section class="conteiner">
+      <section class="conteiner section">
         <h2 class="section-title list">Постоянные клиенты</h2>
         <ul class="list customers">
           <li class="clients">
-            <a href="#">
-              <svg width="44" height="49">
+            <a class="client-link" href="#" >
+              <svg class="animation" width="44" height="49">
                 <use href="./images/sprite.svg#icon-clients1"></use>
               </svg>
             </a>
           </li>
           <li class="clients">
-            <a href="#">
-              <svg width="44" height="49">
+            <a class="client-link" href="#">
+              <svg class="animation" width="44" height="49">
                 <use href="./images/sprite.svg#icon-clients2"></use>
               </svg>
             </a>
           </li>
           <li class="clients">
-            <a href="#">
-              <svg width="40" height="52">
+            <a class="client-link" href="#">
+              <svg class="animation" width="40" height="52">
                 <use href="./images/sprite.svg#icon-clients3"></use>
               </svg>
             </a>
           </li>
           <li class="clients">
-            <a href="#">
-              <svg width="79" height="42">
+            <a class="client-link" href="#">
+              <svg class="animation" width="79" height="42">
                 <use href="./images/sprite.svg#icon-clients4"></use>
               </svg>
             </a>
           </li>
           <li class="clients">
-            <a href="#">
-              <svg width="59" height="47">
+            <a class="client-link" href="#">
+              <svg class="animation" width="59" height="47">
                 <use href="./images/sprite.svg#icon-clients5"></use>
               </svg>
             </a>
           </li>
           <li class="clients">
-            <a href="#">
-              <svg width="88" height="45">
+            <a class="client-link" href="#">
+              <svg class="animation" width="88" height="45">
                 <use href="./images/sprite.svg#icon-clients6"></use>
               </svg>
             </a>
